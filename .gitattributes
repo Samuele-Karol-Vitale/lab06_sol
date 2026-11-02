@@ -1,0 +1,8 @@
+#automaticamente normalizza i fine linea per tutti i file testuali 
+* text=auto eol=lf
+#per i file .cmd applico come fine linea CRLF
+*.[cC][mM][dD] text eol=crlf
+#per i file .bat uso CRLF come fine linea
+*.[bB][aA][tT] text eol=crlf
+#per gli scrit Powershell (.ps1), applico CRLF come fine linea
+*.[pP][sS]1 text eol=crlf
